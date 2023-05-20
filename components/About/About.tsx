@@ -36,7 +36,7 @@ const About = (props: Props) => {
           </div>
 
           </div>
-          <Image className='md:block hidden' src="/images/about.svg" alt="logo" width="512" height="512"/>
+          <Image className='lg:block hidden' src="/images/about.svg" alt="logo" width="512" height="512"/>
         </div>
 
       </div>
