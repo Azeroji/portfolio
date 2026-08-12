@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 
 type Props = {}
 
@@ -10,32 +9,34 @@ const Work = (props: Props) => {
 
         <div className='flex items-center justify-center gap-x-[20px] md:w-[100%]'>
           <div className='border-t w-[50%] md:w-[30%] border-[#233554]'></div>
-            <p className='font-Poppins font-semibold text-white text-[20px] md:text-[28px] text-center'>Some Things I've Built</p>
+          <p className='font-Poppins font-semibold text-white text-[20px] md:text-[28px] text-center'>Security Credentials</p>
           <div className='border-t w-[50%] md:w-[30%] border-[#233554]'></div>
         </div>
 
-          <div>
-            
-            <div className='my-[50px]'>
-                <p className='text-TXT leading-none'>Featured</p>
-                <a href="https://github.com/Azeroji/CHAT-APPS" className='font-Poppins font-semibold text-GRAY text-[16px] md:text-[22px]'>Chat App</a>
-                <p className='mt-[20px] p-[30px] bg-[#112240] rounded-[3px]'>Built a full stack instantaneous messaging website using <span className='text-TXT'>React</span>, <span className='text-TXT'>Tailwind</span>, <span className='text-TXT'>Node.js</span>, 
-                <span className='text-TXT'> Express.js</span> and <span className='text-TXT'>MySQL</span>.</p>
-            </div>
-            
-            <div className='my-[50px] text-right'>
-                <p className='text-TXT leading-none mt-[]'>Featured</p>
-                <a href="https://github.com/Azeroji/store" className='font-Poppins font-semibold text-GRAY text-[16px] md:text-[22px]'>Online Store</a>
-                <p className='mt-[20px] p-[30px] bg-[#112240] rounded-[3px]'>Built a front-end only Online Store using <span className='text-TXT'>React</span> and <span className='text-TXT'>Tailwind</span>.</p>
-            </div>
+        <p className='text-center'>
+          Selected vulnerability findings from responsible disclosure work on YesWeHack.
+          Programs and report details are intentionally undisclosed.
+        </p>
 
-            <div className='my-[50px]'>
-                <p className='text-TXT leading-none mt-[]'>Featured</p>
-                <a href="https://github.com/Azeroji/netflix" className='font-Poppins font-semibold text-GRAY text-[16px] md:text-[22px]'>Netflix Replica</a>
-                <p className='mt-[20px] p-[30px] bg-[#112240] rounded-[3px]'>Built a front-end only Netflix Replica using <span className='text-TXT'>React</span>.</p>
-            </div>
-
+        <div className='grid gap-[20px] md:grid-cols-3'>
+          <div className='p-[30px] bg-[#112240] rounded-[3px] text-center'>
+            <p className='text-TXT text-[28px] font-semibold'>RCE</p>
+            <p className='text-white font-Poppins font-semibold text-[22px]'>CVSS 10.0</p>
+            <p>Remote Code Execution</p>
           </div>
+
+          <div className='p-[30px] bg-[#112240] rounded-[3px] text-center'>
+            <p className='text-TXT text-[28px] font-semibold'>SQLi</p>
+            <p className='text-white font-Poppins font-semibold text-[22px]'>CVSS 10.0</p>
+            <p>SQL Injection</p>
+          </div>
+
+          <div className='p-[30px] bg-[#112240] rounded-[3px] text-center'>
+            <p className='text-TXT text-[28px] font-semibold'>Path Traversal</p>
+            <p className='text-white font-Poppins font-semibold text-[22px]'>CVSS 8.5</p>
+            <p>File and directory traversal</p>
+          </div>
+        </div>
 
       </div>
     </div>
