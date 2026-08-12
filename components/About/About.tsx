@@ -15,7 +15,7 @@ const About = (props: Props) => {
 
         <div className='flex justify-between items-center gap-x-[5%]'>
           <div className='flex flex-col gap-y-[20px]'>
-            <p>Hello! my name is Dalil and I am currently pursuing my studies in Computer Science at the National Higher School of Computer Science in Algiers, Algeria.</p>
+            <p>Hello! my name is Dalil. I am an entrepreneur living in France and studying at <a className='text-TXT hover:underline' href='https://www.efrei.fr/'>EFREI Paris</a>.</p>
             <p>I practice responsible security research as a bug bounty hunter on <a className='text-TXT hover:underline' href='https://yeswehack.com/hunters/Azerojii#latest-hacktivity'>YesWeHack</a>, where I explore real-world applications and responsibly disclose vulnerabilities.</p>
             <p>My approach is simple: understand how a system works, find where its assumptions fail, and help make it stronger.</p>
           </div>
